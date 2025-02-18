@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.top-nav ul li {
+    display: inline;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main-news {
+    flex: 2;
+}
+
+.main-news img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-news h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main-news p {
+    color: #666;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-container {
+    display: flex;
+    gap: 15px;
+}
+
+.top-stories, .quick-bites {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid yellow;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.quick-bites {
+    border-left: 4px solid yellow;
+    padding-left: 10px;
+}
+
+.quick-bites p {
+    font-size: 14px;
+    color: #555;
+}
+
+.quick-bites a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.newsletter {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 14px;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter h3{
+    color: darkblue;
+}
+
+.newsletter button:hover {
+    background-color: darkblue;
+}
